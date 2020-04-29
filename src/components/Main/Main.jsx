@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
 import MessagesContainer from '../Messages/MessagesContainer';
 import Startpage from '../Startpage/Startpage';
 
 const Main = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <main className="main">
         <div className="main__container">
           <div className="main__sidebar">
@@ -18,7 +18,7 @@ const Main = () => {
           </div>
         </div>
       </main>
-    </BrowserRouter>
+    </HashRouter>
     )
 }
 

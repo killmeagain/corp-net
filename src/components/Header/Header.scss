@@ -1,0 +1,12 @@
+.main-header {
+    width: 100%;
+    padding: 5px 0;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.2);
+
+    @import './__logo/__logo';
+}

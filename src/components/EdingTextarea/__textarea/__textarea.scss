@@ -1,0 +1,25 @@
+&__textarea {
+    display: block;
+    width: 100%;
+
+    box-sizing: border-box;
+
+    resize: none;
+
+    border: 1px solid $darkShadeHalf;
+    border-radius: 5px;
+
+    padding: 10px 15px;
+
+    margin-bottom: 10px;
+
+    font-family: $raleway;
+    font-size: $main;
+    line-height: $lineHeight;
+
+    color: $darkShadeGray;
+
+    &::placeholder {
+        color: $darkShadeHalf;
+    }
+}

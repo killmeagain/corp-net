@@ -1,0 +1,21 @@
+@import './fonts.scss';
+@import './vars.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.corpnet {
+    background-color: $green;
+
+    min-height: 100vh;
+}
+
+@import '../components/Header/Header.scss';
+@import '../components/Main/Main.scss';
+@import '../components/Sidebar/Sidebar.scss';
+@import '../components/Messages/Messages.scss';
+@import '../components/Message/Message.scss';
+@import '../components/EdingTextarea/EdingTextarea.scss';
+@import '../components/Startpage/Startpage.scss';

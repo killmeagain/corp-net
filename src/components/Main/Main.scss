@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    min-height: 90vh;
+
+    margin-top: 20px;
+
+    @import './__container/__container';
+    @import './__sidebar/__sidebar';
+    @import './__content/__content';
+}

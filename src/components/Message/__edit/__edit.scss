@@ -1,0 +1,18 @@
+&__edit {
+    position: absolute;
+    top: 3px;
+    right: 65px;
+
+    width: 12px;
+    height: 12px;
+
+    border: none;
+
+    background: transparent;
+
+    background-image: url('../../../img/pencil.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    cursor: pointer;
+}

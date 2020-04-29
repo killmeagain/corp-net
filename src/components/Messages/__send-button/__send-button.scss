@@ -1,0 +1,22 @@
+&__send-button {
+    box-sizing: border-box;
+
+    width: 30%;
+
+    padding: 10px 25px;
+
+    font-family: $raleway;
+    font-size: $main;
+    line-height: $lineHeight;
+    font-weight: 700;
+
+    color: $white;
+
+    text-transform: uppercase;
+
+    background-color: $green;
+    border: 2px solid $green;
+    border-radius: 15px;
+
+    cursor: pointer;
+}

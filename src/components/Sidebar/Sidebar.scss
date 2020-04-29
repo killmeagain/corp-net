@@ -1,0 +1,6 @@
+.navigation {
+    width: 100%;
+
+    @import './__list/__list';
+    @import './__link/__link';
+}

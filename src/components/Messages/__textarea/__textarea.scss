@@ -1,0 +1,40 @@
+&__textarea {
+    width: 70%;
+    height: 70px;
+
+    display: block;
+
+    margin-right: 20px;
+
+    font-family: $raleway;
+    font-size: $main;
+    line-height: $lineHeight;
+
+    color: $darkShadeGray;
+
+    box-sizing: border-box;
+
+    padding: 10px;
+
+    resize: none;
+
+    background-color: #fff;
+
+    border: 1px solid $darkShadeFourth;
+    border-radius: 10px;
+
+    outline: none;
+
+    &:hover,
+    &:focus {
+        border-color: $darkShadeHalf;
+    }
+
+    &::placeholder {
+        font-family: $raleway;
+        font-size: $main;
+        line-height: $lineHeight;
+
+        color: $darkShadeFourth;
+    }
+}

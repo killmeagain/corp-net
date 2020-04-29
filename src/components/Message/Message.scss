@@ -1,0 +1,22 @@
+.message {
+    width: 60%;
+    box-sizing: border-box;
+
+    background-color: $white;
+
+    font-family: $raleway;
+    font-size: $main;
+    line-height: $lineHeight;
+
+    color: $darkShadeGray;
+
+    position: relative;
+    right: 0;
+
+    @import './__text/__text';
+    @import './__time/__time';
+    @import './__name/__name';
+    @import './__body/__body';
+    @import './__edit/__edit';
+    @import './__delete/__delete';
+}

@@ -1,0 +1,40 @@
+&__close-eding {
+    padding: 13px;
+    box-sizing: border-box;
+    position: relative;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    outline: none;
+
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: calc(50% - 10px);
+        top: 50%;
+
+        width: 20px;
+        height: 1px;
+
+        background-color: $darkShadeHalf;
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &:hover::after,
+    &:hover::before {
+        background-color: $darkShadeGray;
+    }
+}
